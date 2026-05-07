@@ -1,9 +1,9 @@
 import Cocoa
 import QuartzCore
 
-let canvasSize: CGFloat = 280
-let lineCount = 256
-let innerRadius: CGFloat = 22
+let canvasSize: CGFloat = 560
+let lineCount = 512
+let innerRadius: CGFloat = 44
 let lineBaseWidth: CGFloat = 2
 let frameInterval: TimeInterval = 0.12
 let frameCount = 16
@@ -48,7 +48,7 @@ view.layer?.addSublayer(lineLayer)
 
 func appendFocusLine(to path: CGMutablePath, angle: CGFloat) {
     let lengthRatio = CGFloat.random(in: 0.78...1.0)
-    let innerJitter = CGFloat.random(in: 0...32)
+    let innerJitter = CGFloat.random(in: 0...64)
     let widthRatio = CGFloat.random(in: 0.55...1.25)
     let midBias = CGFloat.random(in: 0.4...0.6)
 
