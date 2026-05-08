@@ -1,8 +1,8 @@
 {
-  "title": "Cursor Highlight",
+  "title": "curpop",
   "rules": [
     {
-      "description": "Left Control -> highlight cursor (use Right Control as modifier)",
+      "description": "Left Control -> trigger curpop (use Right Control as modifier)",
       "manipulators": [
         {
           "type": "basic",
@@ -10,7 +10,7 @@
             "key_code": "left_control"
           },
           "to": [
-            { "shell_command": "~/.local/bin/highlight" }
+            { "shell_command": "~/.local/bin/curpop" }
           ]
         }
       ]

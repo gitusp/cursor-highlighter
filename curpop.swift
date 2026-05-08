@@ -24,7 +24,7 @@ func parseHexColor(_ hex: String) -> NSColor? {
 }
 
 func printHelp() {
-    let progName = (CommandLine.arguments.first as NSString?)?.lastPathComponent ?? "highlight"
+    let progName = (CommandLine.arguments.first as NSString?)?.lastPathComponent ?? "curpop"
     print("""
     Usage: \(progName) [options]
 
